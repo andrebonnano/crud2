@@ -22,12 +22,12 @@
     },
     {
       "name": "form in",
-      "price": "9,99",
+      "price": 9.99,
       "id": 5
     },
     {
       "name": "teste teste",
-      "price": "25,90",
+      "price": 25.90,
       "id": 6
     }
   ]
