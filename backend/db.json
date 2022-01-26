@@ -7,8 +7,8 @@
     },
     {
       "id": 2,
-      "name": "caneta2",
-      "price": 6.89
+      "name": "caneta bic",
+      "price": "2.50"
     },
     {
       "id": 3,
@@ -19,16 +19,6 @@
       "name": "Produto de teste",
       "price": 125.98,
       "id": 4
-    },
-    {
-      "name": "form in",
-      "price": 9.99,
-      "id": 5
-    },
-    {
-      "name": "teste teste",
-      "price": 25.9,
-      "id": 6
     }
   ]
 }

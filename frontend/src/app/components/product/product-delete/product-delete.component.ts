@@ -1,14 +1,14 @@
+import { Product } from './../product.model';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ProductService } from './../product.service';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
-import { Product } from '../product.model';
 
 @Component({
-  selector: 'app-product-update',
-  templateUrl: './product-update.component.html',
-  styleUrls: ['./product-update.component.css']
+  selector: 'app-product-delete',
+  templateUrl: './product-delete.component.html',
+  styleUrls: ['./product-delete.component.css']
 })
-export class ProductUpdateComponent implements OnInit {
+export class ProductDeleteComponent implements OnInit {
 
   product!: Product;
 
@@ -25,9 +25,9 @@ export class ProductUpdateComponent implements OnInit {
     });
   }
 
-  updateProduct(): void {
-    this.ProductService.update(this.product).subscribe(() => {
-      this.ProductService.showMessage('Produto atualizado')
+  deleteProduct(): void {
+    this.ProductService.delete(`${this.product.id}`).subscribe(() => {
+      this.ProductService.showMessage('Produto excluido')
       this.router.navigate(['/products'])
     })
   }
