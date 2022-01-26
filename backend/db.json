@@ -1,19 +1,29 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "caneta1",
-            "price": 5.89
-        },
-        {
-            "id": 2,
-            "name": "caneta2",
-            "price": 6.89
-        },
-        {
-            "id": 3,
-            "name": "caneta3",
-            "price": 7.89
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "caneta1",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "caneta2",
+      "price": 6.89
+    },
+    {
+      "id": 3,
+      "name": "caneta3",
+      "price": 7.89
+    },
+    {
+      "name": "Produto de teste",
+      "price": 125.98,
+      "id": 4
+    },
+    {
+      "name": "form in",
+      "price": "9,99",
+      "id": 5
+    }
+  ]
 }
