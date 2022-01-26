@@ -19,6 +19,16 @@
       "name": "Produto de teste",
       "price": 125.98,
       "id": 4
+    },
+    {
+      "name": "sedf",
+      "price": "123",
+      "id": 5
+    },
+    {
+      "name": "dsfg sdfg sdfg",
+      "price": "012",
+      "id": 6
     }
   ]
 }
