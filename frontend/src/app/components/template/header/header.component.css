@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     text-decoration: none;
+    color: rgb(41, 41, 41);
 }
 
 .header logo{
@@ -16,6 +17,7 @@
 .header .title-group{
     padding-left: 25px;
 }
+
 .header .title-group i{
     padding-right: 5px;
 }
